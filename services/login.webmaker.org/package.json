@@ -41,7 +41,7 @@
     "webmaker-i18n": "0.3.19",
     "webmaker-locale-mapping": "0.0.5",
     "webmaker-translation-stats": "0.0.1",
-    "snyk": "^1.90.0"
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "grunt": "0.4.5",
@@ -61,7 +61,8 @@
     "postinstall": "bower install",
     "download-locales": "webmaker-download-locales login",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "npm run snyk-protect",
+    "prepublish": "npm run snyk-protect"
   },
   "snyk": true
 }
