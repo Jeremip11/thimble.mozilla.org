@@ -26,7 +26,8 @@
     "watch:css": "autoless --source-map templates/less public",
     "server": "node web/index.js",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "npm run snyk-protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -84,7 +85,7 @@
     "scooter": "2.0.1",
     "should": "5.2.0",
     "webpack": "2.2.0",
-    "snyk": "^1.90.0"
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "bulk-require": "0.2.1",
