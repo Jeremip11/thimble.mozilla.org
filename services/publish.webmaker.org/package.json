@@ -13,7 +13,8 @@
     "test": "lab -t 80 -c --verbose --colors --assert code --timeout 5000",
     "lint": "eslint adaptors api lib server.js",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "npm run snyk-protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -49,7 +50,7 @@
     "request": "^2.58.0",
     "sqlite3": "^4.0.0",
     "tar-stream": "^1.2.1",
-    "snyk": "^1.90.0"
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "code": "^1.4.0",
