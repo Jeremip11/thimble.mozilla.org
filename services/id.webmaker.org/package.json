@@ -84,7 +84,7 @@
     "scooter": "2.0.1",
     "should": "5.2.0",
     "webpack": "2.2.0",
-    "snyk": "^1.90.0"
+    "snyk": "^1.231.0"
   },
   "devDependencies": {
     "bulk-require": "0.2.1",
