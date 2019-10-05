@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.12.0
+version: v1.13.5
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -25,3 +25,10 @@ patch:
   'npm:tunnel-agent:20170305':
     - autoless > less > request > tunnel-agent:
         patched: '2018-08-07T04:16:17.080Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - newrelic > https-proxy-agent:
+        patched: '2019-10-05T01:14:15.301Z'
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-05T01:14:15.301Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-05T01:14:15.301Z'
