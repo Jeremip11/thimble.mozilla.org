@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.12.0
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -14,3 +14,8 @@ patch:
         patched: '2018-08-07T02:00:13.390Z'
     - webmaker-translation-stats > mocha > glob > minimatch:
         patched: '2018-08-07T02:00:13.390Z'
+  SNYK-JS-LODASH-567746:
+    - sequelize > lodash:
+        patched: '2020-04-30T21:23:12.359Z'
+    - newrelic > async > lodash:
+        patched: '2020-04-30T21:23:12.359Z'
