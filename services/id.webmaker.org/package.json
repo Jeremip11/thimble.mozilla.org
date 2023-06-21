@@ -73,7 +73,7 @@
     "less": "2.1.0",
     "newrelic": "4.0.0",
     "pass-test": "1.0.3",
-    "pg": "4.5.7",
+    "pg": "8.4.0",
     "react": "0.14.0",
     "react-ga": "1.0.10",
     "react-router": "1.0.0",
@@ -83,7 +83,7 @@
     "redis-url": "1.2.1",
     "scooter": "2.0.1",
     "should": "5.2.0",
-    "webpack": "2.2.0",
+    "webpack": "4.0.0",
     "snyk": "^1.90.0"
   },
   "devDependencies": {
