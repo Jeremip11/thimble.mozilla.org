@@ -76,7 +76,7 @@
     "pg": "4.5.7",
     "react": "0.14.0",
     "react-ga": "1.0.10",
-    "react-router": "1.0.0",
+    "react-router": "6.30.2",
     "react-router-stub": "0.0.6",
     "react-router-viewports": "0.0.4",
     "react-validation-mixin": "4.0.3",
